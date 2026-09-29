@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'proyectoDjango.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.1/ref/settings/#databases
 
-ATABASES = {
+DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
         default='postgresql://postgres:postgres@localhost:5432/proyectoDjango',
